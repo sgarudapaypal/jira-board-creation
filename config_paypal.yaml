@@ -1,0 +1,51 @@
+tenable:
+
+  platform: tenable.io
+
+  # Tenable.io or API Access Key
+  access_key: 
+
+  # Tenable.io or API Secret Key
+  secret_key: 
+
+  severity_prioritization:
+    critical: 1
+    high: 2
+    medium: 3
+    low: 4
+
+jira:
+  # The API Token to use to authenticate to the Jira application
+  api_token: 
+
+  # The User that will be authenticaing to the Jira application
+  api_username: 
+
+  # The address pointing to the Jira application.
+  address: 
+
+project:
+  # The lead account id for the primary user for the project.
+  leadAccountId: 
+
+  #JIRA project key
+  key: VULNSSS
+
+  #Description/ Name of the project
+  name: 'Testing for Vulnerability Management Queue'
+
+  #Project Type
+  projectTypeKey: software
+
+  #JIRA project template id
+  projectTemplateKey: com.pyxis.greenhopper.jira:gh-simplified-scrum-classic
+
+# The following log definitions are optional.  Only specify these if you want
+# to change the default logging behavior of only outputting warnings and errors
+# to the screen.
+log:
+  # What is the logging level desired?  Available levels are:
+  #   debug, info, warn, error
+  # The default level if unspecified is "warn"
+  level: warn
+
