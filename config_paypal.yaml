@@ -29,7 +29,7 @@ project:
   leadAccountId: 
 
   #JIRA project key
-  key: VULNSSS
+  key: VULN
 
   #Description/ Name of the project
   name: 'Testing for Vulnerability Management Queue'
@@ -38,7 +38,7 @@ project:
   projectTypeKey: software
 
   #JIRA project template id
-  projectTemplateKey: com.pyxis.greenhopper.jira:gh-simplified-scrum-classic
+  projectTemplateKey: com.pyxis.greenhopper.jira:gh-simplified-basic
 
 # The following log definitions are optional.  Only specify these if you want
 # to change the default logging behavior of only outputting warnings and errors
@@ -47,5 +47,5 @@ log:
   # What is the logging level desired?  Available levels are:
   #   debug, info, warn, error
   # The default level if unspecified is "warn"
-  level: warn
+  level: debug
 
