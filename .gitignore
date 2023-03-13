@@ -3,7 +3,7 @@
 /.python-version
 *.egg-info
 __pycache__
-/config.yaml
+/config_paypal.yaml
 /generated_config.yaml
 dist
 /issue*
